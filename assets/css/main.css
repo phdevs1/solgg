@@ -1626,7 +1626,7 @@
 	}
 
 		a:hover {
-			color: #ef8376;
+			color: 	#696969;
 			border-bottom-color: transparent;
 		}
 
@@ -1982,11 +1982,9 @@
 	button,
 	.button {
 		position: relative;
-		
-		background: #df7366;
+		background: #4682B4;
 		color: #fff;
 		text-align: center;
-		
 		text-decoration: none;
 		padding: 0.65em 3em 0.65em 3em;
 		border: 0;
@@ -2067,7 +2065,7 @@
 
 	#header {
 		position: relative;
-		background-image: url("../../images/almacen.jpg");
+		background-image: url("../../images/principal.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2076,6 +2074,7 @@
 		padding: 7.5em 0 2em 0;
 		cursor: default;
 	}
+
 
 		#header:before {
 			content: '';

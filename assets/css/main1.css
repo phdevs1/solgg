@@ -1869,10 +1869,10 @@ input.num-product::-webkit-inner-spin-button {
 [ Modal1 ]*/
 .wrap-modal1 {
   position: fixed;
-  width: 100%;
+  width: 50%;
   height: 100vh;
   top: 0;
-  left: 0;
+  left: 250px;
   z-index: 9000;
   overflow: auto;
 
@@ -1982,9 +1982,19 @@ input.num-product::-webkit-inner-spin-button {
 [ Block1 ]*/
 .block1 {
   position: relative;
+
   border: 1px solid #e6e6e6;
 }
-
+.block1-btn {
+  position: absolute;
+  bottom: 0px;
+  left: 70%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
 .block1-txt {
   background-color: rgba(103,117,214,0.0);
 }
@@ -2312,7 +2322,6 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .mtext-110 {
-  font-family: Poppins-Regular;
   font-size: 18px;
   line-height: 1.222222;
 }
@@ -2618,7 +2627,10 @@ input.num-product::-webkit-inner-spin-button {
 .size-218 {
   max-width: 286px;
 }
-
+.size-66 {
+  width: 140px;
+  height: 40px;
+}
 
 
 /*//////////////////////////////////////////////////////////////////
